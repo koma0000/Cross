@@ -12,11 +12,11 @@ namespace lab_2.Models
         public string Surname { get; set; }
         public long Age {get;set;}
 
-        public List<Busines> busines { get; set; }
+        public List<Busines> business { get; set; }
 
         public Businessmen()
         {
-            busines = new List<Busines>();
+            business = new List<Busines>();
         }
 
         
