@@ -11,9 +11,12 @@ namespace lab_2.Models
         public string Name { get; set; }
         public long Proceeds { get; set; }
         public long Profit { get; set; }
+
+        public List<Businessmen> Businessmens { get; set; } = new List<Businessmen>();
+
     }
 
-   public List<Business> 
+     
 
 
    
